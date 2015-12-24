@@ -7,3 +7,7 @@ The primary issue is if you have Network Adapter driver installed on the system,
 Idea is to build a desktop based client, to maintain a db for almost all standard Network Adapters drivers (with the oldest possible working builds) to enable the Network Adapters, post that, we need a detection of the devices of the system and then download and install all of the needful drivers. if needed that will replace the existing Network Adapter as well. Obviously the idea fails if the person does not have the software post installation. 
 
 One may contradict saying, when I have the internet to download the software prior installation, why can't I download the drivers that are needed by my system and get along? Well, the purpose of any software in the world is to make the task easier Imagine having to just one software and let that do the work to update the drivers that your system needs.
+
+Progress so far: 
+
+1. WQL Queries ready for getting the device information from Windows OS.
